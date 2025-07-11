@@ -5,7 +5,7 @@ const mockDestinations: Destination[] = [
   {
     id: 1,
     desc: "Beautiful beach with crystal clear water.",
-    location: "Hawaii",
+    location: "Boracay",
   },
   {
     id: 2,
