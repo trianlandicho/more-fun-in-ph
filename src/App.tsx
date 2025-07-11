@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
-import Boracay from "./pages/Boracay";
+import Boracay from "./pages/boracay";
 import "./App.css";
 
 function App() {
@@ -12,7 +12,6 @@ function App() {
 
         {/* Destination Detail Page */}
         <Route path="/boracay" element={<Boracay />} />
-
       </Routes>
     </Router>
   );

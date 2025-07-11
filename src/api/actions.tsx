@@ -6,7 +6,7 @@ const mockDestinations: Destination[] = [
     id: 1,
     desc: "Beautiful beach with crystal clear water.",
     shortDesc: "A tropical paradise with pristine beaches.",
-    location: "Hawaii",
+    location: "Boracay",
     howToGetThere:
       "Fly to Honolulu International Airport and drive to the beach.",
     activities: ["Snorkeling", "Surfing", "Sunbathing"],
