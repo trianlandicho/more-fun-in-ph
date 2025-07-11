@@ -1,4 +1,4 @@
-import { Destination } from "./models/destination";
+import type { Destination } from "./models/destination";
 
 // Mock data for destinations
 const mockDestinations: Destination[] = [

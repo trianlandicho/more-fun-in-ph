@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { fetchDestinations } from "./api"; // Import the mock API function
-import { Destination } from "./Destination"; // Import the Destination model
+import { fetchDestinations } from "../api/actions"; // Import the mock API function
+import type { Destination } from "../api/models/destination"; // Import the Destination model
+// Import the Destination model
 
 function LandingPage() {
   const [destinations, setDestinations] = useState<Destination[]>([]);
