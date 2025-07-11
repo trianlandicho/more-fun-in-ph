@@ -110,8 +110,14 @@ function LandingPage() {
       {/* Main Content */}
 
       {/* Main Content */}
-      <main style={{ flex: 1, padding: "20px", overflowY: "auto" }}>
-        <p>Explore our destinations!</p>
+      <main style={{ flex: 1, padding: "16px", overflowY: "auto" }}>
+        <p style={{ 
+          color: "black",
+          fontSize: "24px",
+          fontWeight: "700"
+        }}>
+          Explore our destinations!
+        </p>
         {/* Display the fetched destinations */}
         <ul style={{ listStyleType: "none", padding: 0 }}>
           {destinations.map((destination) => (
@@ -126,6 +132,7 @@ function LandingPage() {
                   display: "flex", // Use flexbox for layout
                   gap: "15px", // Space between image and text
                   alignItems: "center", // Center items vertically
+                  color: "black",
                 }}
               >
                 {/* Text Content */}
@@ -154,7 +161,7 @@ function LandingPage() {
                 {/* Image Container */}
                 <div style={{ flexShrink: 0 }}>
                   <img
-                    src={`https://fastly.picsum.photos/id/898/200/300.jpg?hmac=t4CBtj0-seR5dcy3U9f3RETPJo3tVYgUSvwcMV-cL-o`} // Replace with actual image URL
+                    src={destination.image} // Replace with actual image URL
                     alt={destination.location}
                     style={{
                       width: "150px",
