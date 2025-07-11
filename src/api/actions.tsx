@@ -138,6 +138,90 @@ const mockDestinations: Destination[] = [
       "Mad Monkey Siargao",
     ],
   },
+  {
+    "id": 7,
+    "desc": "A world-class destination in Palawan, El Nido is renowned for its stunning Bacuit Archipelago, featuring towering limestone karst cliffs, hidden lagoons, and dozens of pristine white-sand beaches.",
+    "shortDesc": "A paradise of limestone cliffs, lagoons, and pristine beaches.",
+    "location": "El Nido, Palawan",
+    "howToGetThere": "Fly directly to Lio Airport (ENI) via select airlines, or fly to Puerto Princesa (PPS) and take a 5-6 hour van ride to El Nido town.",
+    "activities": [
+      "Island hopping tours (Tour A, B, C, D)",
+      "Kayaking in the Big and Small Lagoons",
+      "Snorkeling and diving in Bacuit Bay",
+      "Relaxing on Nacpan Beach",
+      "Chasing waterfalls like Kuang-kuang"
+    ],
+    "accommodations": [
+      "El Nido Resorts Lagen Island",
+      "El Nido Resorts Miniloc Island",
+      "Seda Lio",
+      "Maremegmeg Beach Club",
+      "Spin Designer Hostel"
+    ]
+  },
+  {
+    "id": 8,
+    "desc": "As the main hub of Mindanao, Davao is a bustling urban center known for its fresh produce like the famous Durian, its proximity to Mount Apo, and the endangered Philippine Eagle.",
+    "shortDesc": "A bustling urban center known for durian and Mount Apo.",
+    "location": "Davao",
+    "howToGetThere": "Fly directly into Francisco Bangoy International Airport (DVO), which serves numerous domestic and some international flights.",
+    "activities": [
+      "Visiting the Philippine Eagle Center",
+      "Exploring Eden Nature Park",
+      "Island hopping to Samal Island",
+      "Trying durian and other local fruits",
+      "Visiting the Davao Crocodile Park"
+    ],
+    "accommodations": [
+      "Seda Abreeza Davao",
+      "DusitD2 Davao",
+      "Park Inn by Radisson Davao",
+      "Acacia Hotel Davao",
+      "Pearl Farm Beach Resort (Samal Island)"
+    ]
+  },
+  {
+    "id": 9,
+    "desc": "The capital of the Philippines, Manila is a bustling metropolis and a city of contrasts, where modern skyscrapers stand alongside Spanish colonial-era architecture. It is the country's economic, political, and cultural heart.",
+    "shortDesc": "The historic and bustling capital city of the Philippines.",
+    "location": "Manila",
+    "howToGetThere": "Fly into Ninoy Aquino International Airport (NAIA), the country's main international gateway, connecting Manila to the world.",
+    "activities": [
+      "Exploring the walled city of Intramuros",
+      "Visiting the National Museum Complex",
+      "Watching the sunset at Manila Bay",
+      "Shopping at SM Mall of Asia",
+      "Going on a food tour in Binondo Chinatown"
+    ],
+    "accommodations": [
+      "The Peninsula Manila",
+      "Conrad Manila",
+      "Sofitel Philippine Plaza Manila",
+      "Okada Manila",
+      "Red Planet Manila Bay"
+    ]
+  },
+  {
+    "id": 10,
+    "desc": "The northernmost province of the Philippines, Batanes is an breathtaking archipelago famous for its dramatic landscapes, rolling hills, rugged coastlines, and unique Ivatan stone houses.",
+    "shortDesc": "Breathtaking northern province with rolling hills and stone houses.",
+    "location": "Batanes",
+    "howToGetThere": "Fly to Basco Airport (BSO) from Manila or Clark. Flights are limited and subject to weather conditions.",
+    "activities": [
+      "Touring North and South Batan Island",
+      "Visiting the traditional Ivatan stone houses",
+      "Taking photos at the rolling hills and lighthouses",
+      "Exploring the stunning island of Sabtang",
+      "Biking around Batan island"
+    ],
+    "accommodations": [
+      "Fundacion Pacita Batanes Nature Lodge",
+      "Amboy Hometel",
+      "Bernardo's Hotel",
+      "Shanedel's Inn & Cafe",
+      "Dive Batanes Lodge"
+    ]
+  }
 ];
 
 // Mock API function to fetch destinations
