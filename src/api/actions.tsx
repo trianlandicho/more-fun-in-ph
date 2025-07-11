@@ -4,33 +4,139 @@ import type { Destination } from "./models/destination";
 const mockDestinations: Destination[] = [
   {
     id: 1,
-    desc: "Beautiful beach with crystal clear water.",
-    shortDesc: "A tropical paradise with pristine beaches.",
+    desc: "A premier tropical paradise, Boracay is world-famous for its stunning 4-kilometer White Beach, featuring powdery white sand and crystal-clear turquoise waters.",
+    shortDesc: "A tropical paradise famed for its powdery white sand beaches.",
     location: "Boracay",
     howToGetThere:
-      "Fly to Honolulu International Airport and drive to the beach.",
-    activities: ["Snorkeling", "Surfing", "Sunbathing"],
-    accommodations: ["Beach Resort", "Vacation Rentals", "Luxury Hotels"],
+      "Fly into Caticlan Airport (MPH), take a tricycle to the jetty port, and then a 15-minute ferry to the island.",
+    activities: [
+      "Relaxing on White Beach",
+      "Sunset paraw sailing",
+      "Water sports (parasailing, jet skiing)",
+      "Island hopping to Puka Beach",
+      "Exploring the shops at D'Mall",
+    ],
+    accommodations: [
+      "Shangri-La Boracay",
+      "The Lind Boracay",
+      "Henann Crystal Sands Resort",
+      "Coast Boracay",
+      "Mad Monkey Boracay",
+    ],
   },
   {
     id: 2,
-    desc: "Historic city with stunning architecture.",
-    shortDesc: "Explore ancient ruins and vibrant culture.",
-    location: "Rome",
+    desc: "Experience a nature lover's paradise in Bohol, famous for the unique Chocolate Hills, the tiny Philippine Tarsier, and the beautiful white-sand beaches of Panglao Island.",
+    shortDesc:
+      "An island of natural wonders, from the Chocolate Hills to pristine beaches.",
+    location: "Bohol",
     howToGetThere:
-      "Fly to Leonardo da Vinci–Fiumicino Airport and take a taxi or train to the city center.",
-    activities: ["Sightseeing", "Museum Tours", "Food Tasting"],
-    accommodations: ["Boutique Hotels", "Luxury Apartments", "Hostels"],
+      "Fly directly into Bohol-Panglao International Airport (TAG), located on Panglao Island for easy access to beach resorts.",
+    activities: [
+      "Bohol Countryside Tour (Chocolate Hills & Tarsiers)",
+      "Loboc River Cruise",
+      "Diving and snorkeling at Balicasag Island",
+      "Relaxing on Alona Beach",
+      "Exploring Hinagdanan Cave",
+    ],
+    accommodations: [
+      "Amorita Resort",
+      "Henann Resort Alona Beach",
+      "Bohol Beach Club",
+      "The Bellevue Resort",
+      "Fox & The Firefly Cottages",
+    ],
   },
   {
     id: 3,
-    desc: "Snowy mountains perfect for skiing.",
-    shortDesc: "A winter wonderland for outdoor enthusiasts.",
-    location: "Aspen",
+    desc: "Known as the 'Summer Capital of the Philippines,' Baguio is a mountain city famed for its cool climate, pine-scented air, vibrant parks, and rich indigenous culture.",
+    shortDesc:
+      "The 'Summer Capital of the Philippines' with a cool mountain climate.",
+    location: "Baguio",
     howToGetThere:
-      "Fly to Aspen/Pitkin County Airport and take a shuttle to the ski resort.",
-    activities: ["Skiing", "Snowboarding", "Hiking"],
-    accommodations: ["Ski Lodges", "Cabins", "Luxury Resorts"],
+      "Typically reached by a 4-6 hour bus ride from Metro Manila, with daily trips from several major terminals.",
+    activities: [
+      "Boating at Burnham Park",
+      "Visiting Camp John Hay",
+      "Strawberry picking at La Trinidad",
+      "Exploring the BenCab Museum",
+      "Shopping at Baguio City Market",
+    ],
+    accommodations: [
+      "The Manor at Camp John Hay",
+      "Grand Sierra Pines Baguio",
+      "The Forest Lodge at Camp John Hay",
+      "Microtel by Wyndham Baguio",
+      "G1 Lodge",
+    ],
+  },
+  {
+    id: 4,
+    desc: "As the 'Queen City of the South,' Cebu offers a perfect blend of urban excitement, rich Spanish colonial history, and stunning natural attractions like waterfalls and world-class dive spots.",
+    shortDesc:
+      "A vibrant hub blending city life with incredible natural wonders.",
+    location: "Cebu",
+    howToGetThere:
+      "Fly into Mactan-Cebu International Airport (CEB), a major international gateway with numerous domestic and international flights.",
+    activities: [
+      "Canyoneering at Kawasan Falls",
+      "Diving with the sardine run in Moalboal",
+      "Swimming with whale sharks in Oslob",
+      "Visiting historical sites like Magellan's Cross",
+      "Island hopping in Mactan",
+    ],
+    accommodations: [
+      "Shangri-La Mactan, Cebu",
+      "Crimson Resort and Spa Mactan",
+      "Radisson Blu Cebu",
+      "Seda Central Bloc Cebu",
+      "Mad Monkey Cebu City",
+    ],
+  },
+  {
+    id: 5,
+    desc: "Recognized as the 'Surfing Capital of Northern Luzon,' La Union ('Elyu') is a coastal province famous for its consistent waves, lively surf culture, and a growing scene of artisanal cafes.",
+    shortDesc: "The vibrant 'Surfing Capital of Northern Luzon.'",
+    location: "La Union",
+    howToGetThere:
+      "Accessible via a 4-5 hour bus ride or private car from Metro Manila, with San Juan being the main tourist drop-off point.",
+    activities: [
+      "Surfing lessons in San Juan",
+      "Visiting Tangadan Falls",
+      "Food trip at local cafes and restaurants",
+      "Grape picking at local farms",
+      "Enjoying the laid-back beach nightlife",
+    ],
+    accommodations: [
+      "Aureo La Union",
+      "Kahuna Beach Resort and Spa",
+      "The Escape San Juan",
+      "Flotsam and Jetsam Artist Beach Hostel",
+      "Urbiztondoz Beach Resort",
+    ],
+  },
+  {
+    id: 6,
+    desc: "Crowned the 'Surfing Capital of the Philippines,' Siargao is a tear-drop shaped island famous for its world-class waves like Cloud 9, vast coconut palm forests, and crystal-clear lagoons.",
+    shortDesc:
+      "The 'Surfing Capital of the Philippines' with world-class waves.",
+    location: "Siargao",
+    howToGetThere:
+      "Fly directly to Siargao's Sayak Airport (IAO) and take a 45-minute van ride to the main tourist area of General Luna.",
+    activities: [
+      "Surfing at Cloud 9",
+      "Tri-island hopping (Naked, Daku, Guyam)",
+      "Swimming at Magpupungko Rock Pools",
+      "Kayaking in Sugba Lagoon",
+      "Exploring the Tayangban Cave Pool",
+    ],
+    accommodations: [
+      "Nay Palad Hideaway",
+      "Siama Hotel Siargao",
+      "Bravo Beach Resort",
+      "Kermit Surf Resort and Restaurant",
+      "Mad Monkey Siargao",
+    ],
   },
 ];
 
