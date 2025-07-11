@@ -26,7 +26,7 @@ function LandingPage() {
           <li key={destination.id}>
             <h2>{destination.location}</h2>
             <p>{destination.desc}</p>
-            <a href="/destination">View Details</a>
+            <a href={`/${destination.location.toLowerCase()}`}>View Details</a>
           </li>
         ))}
       </ul>
