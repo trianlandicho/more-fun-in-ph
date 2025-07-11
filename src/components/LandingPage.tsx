@@ -125,7 +125,7 @@ function LandingPage() {
                   backgroundColor: "#fff",
                   display: "flex", // Use flexbox for layout
                   gap: "15px", // Space between image and text
-                  alignItems: "flex-start", // Align items at the top
+                  alignItems: "center", // Center items vertically
                 }}
               >
                 {/* Text Content */}
@@ -133,9 +133,6 @@ function LandingPage() {
                   {" "}
                   {/* Left-align content */}
                   <h2>{destination.location}</h2>
-                  <p>
-                    <strong>Description:</strong> {destination.desc}
-                  </p>
                   <p>
                     <strong>Short Description:</strong> {destination.shortDesc}
                   </p>
